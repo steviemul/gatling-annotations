@@ -1,0 +1,5 @@
+| Request | Successes | Failures | Avg. Response Time |
+|---------|:---------:|:--------:|:------------------:|
+{{#requests}}
+|{{name}} |{{successes}}|{{failures}}|{{avgResponseTime}}ms||
+{{/requests}}

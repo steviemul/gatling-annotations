@@ -1,0 +1,160 @@
+{
+    "type": "GROUP",
+    "name": "Global Information",
+    "path": "",
+    "pathFormatted": "group_missing-name-b06d1",
+    "stats": {
+        "name": "Global Information",
+        "numberOfRequests": {
+            "total": 58,
+            "ok": 58,
+            "ko": 0
+        },
+        "minResponseTime": {
+            "total": 214,
+            "ok": 214,
+            "ko": 0
+        },
+        "maxResponseTime": {
+            "total": 15619,
+            "ok": 15619,
+            "ko": 0
+        },
+        "meanResponseTime": {
+            "total": 653,
+            "ok": 653,
+            "ko": 0
+        },
+        "standardDeviation": {
+            "total": 1985,
+            "ok": 1985,
+            "ko": 0
+        },
+        "percentiles1": {
+            "total": 371,
+            "ok": 371,
+            "ko": 0
+        },
+        "percentiles2": {
+            "total": 405,
+            "ok": 405,
+            "ko": 0
+        },
+        "percentiles3": {
+            "total": 658,
+            "ok": 658,
+            "ko": 0
+        },
+        "percentiles4": {
+            "total": 7206,
+            "ok": 7206,
+            "ko": 0
+        },
+        "group1": {
+            "name": "t < 800 ms",
+            "count": 56,
+            "percentage": 97
+        },
+        "group2": {
+            "name": "800 ms < t < 1200 ms",
+            "count": 1,
+            "percentage": 2
+        },
+        "group3": {
+            "name": "t > 1200 ms",
+            "count": 1,
+            "percentage": 2
+        },
+        "group4": {
+            "name": "failed",
+            "count": 0,
+            "percentage": 0
+        },
+        "meanNumberOfRequestsPerSecond": {
+            "total": 0.1939799331103679,
+            "ok": 0.1939799331103679,
+            "ko": 0
+        }
+    },
+    "contents": {
+        "req_get-test-dab35": {
+            "type": "REQUEST",
+            "name": "Get Test Details",
+            "path": "Get Test Details",
+            "pathFormatted": "rreq_get-test-dab35",
+            "stats": {
+                "name": "Get Test Details",
+                "numberOfRequests": {
+                    "total": 52,
+                    "ok": 52,
+                    "ko": 0
+                },
+                "minResponseTime": {
+                    "total": 214,
+                    "ok": 214,
+                    "ko": 0
+                },
+                "maxResponseTime": {
+                    "total": 563,
+                    "ok": 563,
+                    "ko": 0
+                },
+                "meanResponseTime": {
+                    "total": 367,
+                    "ok": 367,
+                    "ko": 0
+                },
+                "standardDeviation": {
+                    "total": 48,
+                    "ok": 48,
+                    "ko": 0
+                },
+                "percentiles1": {
+                    "total": 367,
+                    "ok": 367,
+                    "ko": 0
+                },
+                "percentiles2": {
+                    "total": 390,
+                    "ok": 390,
+                    "ko": 0
+                },
+                "percentiles3": {
+                    "total": 427,
+                    "ok": 427,
+                    "ko": 0
+                },
+                "percentiles4": {
+                    "total": 521,
+                    "ok": 521,
+                    "ko": 0
+                },
+                "group1": {
+                    "name": "t < 800 ms",
+                    "count": 52,
+                    "percentage": 100
+                },
+                "group2": {
+                    "name": "800 ms < t < 1200 ms",
+                    "count": 0,
+                    "percentage": 0
+                },
+                "group3": {
+                    "name": "t > 1200 ms",
+                    "count": 0,
+                    "percentage": 0
+                },
+                "group4": {
+                    "name": "failed",
+                    "count": 0,
+                    "percentage": 0
+                },
+                "meanNumberOfRequestsPerSecond": {
+                    "total": 0.17391304347826086,
+                    "ok": 0.17391304347826086,
+                    "ko": 0
+                }
+            }
+        }
+    }
+}

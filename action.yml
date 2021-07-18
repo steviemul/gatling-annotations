@@ -1,0 +1,14 @@
+name: 'steviemul/gatling-annotations'
+description: 'Annotates a workflow run with results from a gatling simulation log'
+inputs:
+  name: 
+    description: 'Name of check, this will be displayed in the output checks and annotations'
+  report-path:  # id of input
+    description: 'Root of reports. This can be a glob pattern'
+    required: true
+  access-token:
+    description: 'Github access token'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
